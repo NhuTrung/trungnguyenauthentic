@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/chitiet.css">
+    <script src="https://kit.fontawesome.com/2f8b021380.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0" nonce="nYagepDc"></script>
+
+ 
+    <!--Header-->
+   <div id="page">
+    
+    <div id="header">
+      <div class="header">
+        <div class="header-top">
+          <a href=""> <img class="header-logo" src="./img/logo3-removebg-preview.png" alt="T R U N N N G U Y E N " height="60" 
+            style="display: block;
+            margin: auto;
+            padding-top: 20px;
+            width: 300px;
+            max-width: 100%;
+            height: auto;"></a> 
+        </div> 
+        <ul id="nav">     
+          <li><a href="./index.html">Trang Chủ</a></li>
+          <li>
+              <a href=""> Sản Phẩm  <i class="fa-solid fa-caret-down"></i></a>
+            
+              <ul class="subnav">                   
+                  <li><a href="./Men.html">Đồ Nam</a></li>
+                  <li><a href="./Woman.html" >Đồ Nữ</a></li>
+                  <li><a href="./Accessory.html">Phụ Kiện</a></li>               
+              </ul> 
+          </li>    
+          <li> <a href="">Liên Hệ</a> </li>
+          <li><a href="">Tuyển Dụng</a></li>
+          <label for="nav_shopping-input" ><i  class="fa fa-shopping-bag"></i></label>
+         
+              <input class="search" type="text" placeholder="Tìm Kiếm" >
+              <i class="fa-solid fa-magnifying-glass"></i>
+      
+        
+        </ul>  
+        <!--nav MB-->
+        <label for="nav_mb-input" class="nav_bars">
+          <i class="fa fa-solid fa-bars"></i>
+          <span class="orther_mb">
+            <input class="search" type="text" placeholder="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i>
+            <a href="./Login.html" class="fa fa-user" id="login-btn"></a>       
+            <label for="nav_shopping-input" ><i class="fa fa-shopping-bag"></i></label>
+          </span>
+        </label> 
+              
+        <!--Mobile-->
+        <input type="checkbox" hidden class="nav_input" id="nav_mb-input">
+        <label for="nav_mb-input" class="nav__overlay"></label>
+        <div class="nav_mb"> 
+          <label for="nav_mb-input" class="nav_mb-close"><i class="fa-solid fa-xmark"></i></label>
+          <ul class="nav_mb-list">  
+            <li><a class="nav_mb-link" href="./index.html">Trang Chủ</a></li>
+            <li><a  class="nav_mb-link" href="./Introduce.html">Giới Thiệu</a></li>
+            <li >
+                <a  class="nav_mb-link icon-menu" href="">Sản Phẩm</a>
+              <i class="icon-menu fas fa-chevron-down"></i>
+              <ul class="sub-menu">
+                  <li><a href="">Đồ Nam</a></li>
+                  <li><a href="">Đồ Nữ</a></li>
+                  <li><a href="">Phụ kiện</a></li>
+              </ul>
+          </li>
+            <li> <a class="nav_mb-link" href="./Contact.html">Liên Hệ</a> </li>
+            <li><a class="nav_mb-link" href="">Tuyển Dụng</a></li>    
+          </ul>                
+        </div>
+        <!-- shopping bag -->
+        <input type="checkbox" hidden class="nav_input-shopping" id="nav_shopping-input">
+                      
+        <label for="nav_shopping-input" class="nav__overlay-shopping"></label>
+
+        <div class="nav_shopping"> 
+            <label for="nav_shopping-input" class="nav_shopping-close">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+            <ul class="nav_shopping-list"> 
+              <li>Chua Lam</li>
+            </ul>                
+        </div>    
+      </div> 
+  </div>
+
+
+
+
+
+    <div id="main" class="wrapper">
+        <div class="breadcrumb-title-wrapper ">
+            <div class="breadcrumb-content">
+                    <div class="breadcrumbs">
+                        <div class="breadcrumbs-container">
+                            <a href="./index.html">Home</a>
+                            <span class="brn_arrow">/</span>
+                            <a href="./Men.html">Đồ Nam</a>
+                            <span class="brn_arrow">/</span>
+                            <span class="current">GC STRETCH COTTON GG STRIPE POLO SHIRT</span>
+
+                        </div>
+                    </div>
+             
+            </div>
+        </div>
+     </div> 
+<!--Product-->
+    <div class="product">
+          <div class="container" style="width: 100%;">
+            
+              <div class="product-content row">
+                <div class="product-content-left row">
+                  <div class="product-content-left-big-img">
+                    <img src="./img/sản phẩm mới/spm1.jpg" alt="">
+                  </div>
+                  <div class="product-content-left-small-img">
+                    <img src="./img/sản phẩm mới/spm1-01.jpg" alt="">
+                    <img src="./img/sản phẩm mới/spm1-02.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-content-right">
+                  <div class="product-content-right-name">
+                    <h1 style="font-weight: bold;">BBR LONDON ENGLAND SHORT SLEEVE CHECK COTTON SHIRT</h1>
+                  </div>
+                  <div class="product-content-right-price">
+                    <p style="font-size:25px; margin-top: 30px;">7.900.000 <sup>đ</sup></p>
+                  </div>
+                  
+                  <div class="quantity">
+                    <input type="number" min="0" value="1">
+                    <button type="submit" name="add-to-cart" value="2443592" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button>
+                  <a href="./index.html"> <button type="submit" name="add-to-cart" value="2443592" class="single_add_to_cart_button button alt">Mua Ngay </button></a>
+        
+                  </div>
+                  <p class="Instock">Availability: In Stock</p>
+                  <div class="social-sharing">
+                    <span>Share:</span>
+                    <ul class="social-sharing-icon">
+                      <li class="facebook icon">
+                        <a href="https://www.facebook.com/profile.php?id=100043723939991" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                      </li>
+                    
+                      <li class="twitter icon">
+                        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                    
+                      <li class="pinterest icon">
+                              <a href="#" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                      </li>
+                    
+                      <li class="linkedin icon">
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                      </li>
+                    
+                      <li class="reddit icon">
+                        <a href="#" target="_blank"><i class="fa-brands fa-reddit-alien"></i></a>
+                      </li>
+                    </ul>
+                  </div> 
+                </div>
+              </div>
+
+          </div>
+          <div class="product-content-big">
+            <div class="product-content-big-title">
+              <div class="product-content-big-title-item Describe">
+                <p >Mô Tả</p>
+              </div>
+              <div class="product-content-big-title-item Preserve">
+                <p>Bảo Quản</p>
+              </div>
+              <div class="product-content-big-title-item Evaluate">
+                <p>Đánh Giá</p>
+              </div>
+            </div>
+            <div class="product-content-big-sp">
+              <div class="product-content-Describe">
+                Cách phối và tái hiện màu sắc tài tình của thương hiệu BBR trên chiếc áo sơ mi kiểu mẫu cùng lối họa tiết check cổ điển đã làm nên tên tuổi “niềm tự hào Anh Quốc”, duy trì trên nền chất liệu cotton cao cấp, form tôn dáng vừa vặn cùng màu sắc trang nhã, lịch sự dễ ứng dụng.
+                <br>
+                • Ảnh / Video sản phẩm thuộc bản quyền 24Cara Studio
+              </div>
+              <div class="product-content-Preserve">
+                Chi tiết bảo quản sản phẩm : 
+                <br><br>
+                * Vải dệt kim : sau khi giặt sản phẩm phải được phơi ngang tránh bai dãn.
+                <br><br>
+                * Vải voan , lụa , chiffon nên giặt bằng tay.
+                <br><br>
+                * Vải thô , tuytsy , kaki không có phối hay trang trí đá cườm thì có thể giặt máy.
+                <br><br>
+                * Vải thô , tuytsy, kaki có phối màu tường phản hay trang trí voan , lụa , đá cườm thì cần giặt tay.
+                <br><br>
+                * Đồ Jeans nên hạn chế giặt bằng máy giặt vì sẽ làm phai màu jeans.Nếu giặt thì nên lộn trái sản phẩm khi giặt , đóng khuy , kéo khóa, không nên giặt chung cùng đồ sáng màu , tránh dính màu vào các sản phẩm khác. 
+                <br><br>
+                * Các sản phẩm cần được giặt ngay không ngâm tránh bị loang màu , phân biệt màu và loại vải để tránh trường hợp vải phai. Không nên giặt sản phẩm với xà phòng có chất tẩy mạnh , nên giặt cùng xà phòng pha loãng.
+                <br><br>
+                * Các sản phẩm có thể giặt bằng máy thì chỉ nên để chế độ giặt nhẹ , vắt mức trung bình và nên phân các loại sản phẩm cùng màu và cùng loại vải khi giặt.
+                <br><br>
+                * Nên phơi sản phẩm tại chỗ thoáng mát , tránh ánh nắng trực tiếp sẽ dễ bị phai bạc màu , nên làm khô quần áo bằng cách phơi ở những điểm gió sẽ giữ màu vải tốt hơn.
+                <br><br>
+                * Những chất vải 100% cotton , không nên phơi sản phẩm bằng mắc áo mà nên vắt ngang sản phẩm lên dây phơi để tránh tình trạng rạn vải.
+                <br><br>
+                * Khi ủi sản phẩm bằng bàn là và sử dụng chế độ hơi nước sẽ làm cho sản phẩm dễ ủi phẳng , mát và không bị cháy , giữ màu sản phẩm được đẹp và bền lâu hơn. Nhiệt độ của bàn là tùy theo từng loại vải.
+              </div>
+              <div class="product-content-Evaluate">
+                <div class="fb-comments" data-href="https://24cara.vn/" data-width="" data-numposts="5"></div>
+              </div>
+
+
+
+            </div>
+
+
+
+
+
+          </div>
+      
+    </div>
+ <!--Footer-->
+       <!--Footer--> 
+       <section id="sectionHomeStore" class="clearfix">
+          <div class="padding-rl-40">
+            <div class="innerHomeStore">
+              <div class="contentHomeStore">
+                <div class="textStore">
+                  <a href="#" >Hệ thống cửa hàng</a>
+                  </div>
+                  <div class="imgStore">
+                    <img  class="lazyautosizes lazyloaded" data-sizes="auto" src="./img/banner footer.jpg"  alt="bn_foot" >
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+  
+      <div id="footer">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_text_column ">
+                          <p><a href="./index.html"><img class="size-full wp-image-16213 aligncenter" src="./img/logo3-removebg-preview.png" alt="" width="180" height="24"></a></p>  
+                        </div>
+                        <div class="wpb_text_column ">
+                          <p style="text-align: center; font-size: 14px;">© 2019 – TRUNG NGUYEN. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="wpb-column-container">
+                        <div class="wpb-column-container-dk">
+                              <div class="wpb_wrapper">
+                                <h6 style="text-align: left" class="vc_custom_heading heading-font-2">ĐĂNG KÝ NHẬN TIN</h6>
+                              </div>
+                              <div class="wpb_wrapper">
+                                <p>Đăng ký để nhận thông tin </p>
+                              </div>
+                              <input  class="email" type="text" placeholder=" &nbsp;Email..."> 
+                              <p><input class="gui" type="submit" value="Gửi" class="wpcf7-form-control wpcf7-submit"></p>
+                        </div>
+                        <div class="wpb-column-container-vct">
+                          <div class="wpb_wrapper">
+                            <h6 style="text-align: left" class="vc_custom_heading heading-font-1">VỀ CHÚNG TÔI</h6>
+                          </div>
+                            <div class="wpb_wrapper">
+                              <ul >
+                                <li class="social" ><a href="">Giới thiệu</a></li>
+                                <li class="social"><a href="">Liên Hệ</a></li>
+                                
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="wpb-column-container-ht">
+                          <div class="wpb_wrapper">
+                            <h6 style="text-align: left " class="vc_custom_heading heading-font-3">Hỗ trợ khách hàng</h6>
+                          </div>
+                            <div class="wpb_wrapper">
+                            <ul>
+                              <li>Hướng dẫn đặt hàng </li>
+                              <li>Hướng dẫn chọn size</li>
+                              <li>Hướng dẫn bảo quản</li>
+                              <li>Chính sách đổi trả</li>
+                              <li>Chính sách bảo mật</li>
+                              <li>VIP CLUB</li>
+                              
+  
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="wpb_wrapper" style="margin:20px 40px 0px 40px;">
+                          <div class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure class="wpb_wrapper vc_figure">
+                          <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="281" height="98" src="https://24cara.vn/wp-content/uploads/2019/12/payment-method.png" class="vc_single_image-img attachment-full" alt="payment-method" loading="lazy"></div>
+                          </figure>
+                          </div>
+                        </div>
+                    </div>   
+      </div>
+              
+</div>
+        
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="./JS/product.js"></script>
+<script src="./JS/dropdow.js"></script>
+</html>

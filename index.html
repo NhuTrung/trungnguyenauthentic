@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/index.css">
+    <script src="https://kit.fontawesome.com/2f8b021380.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main"> 
+<!-- header -->
+          <div id="header">
+                <div class="header">
+                        <div class="header-top">
+                          <a href=""> <img class="header-logo" src="./img/logo3-removebg-preview.png" alt="T R U N N N G U Y E N " height="60" 
+                            style="display: block;
+                            margin: auto;
+                            width: 200px;
+                            max-width: 100%;
+                            height: auto;">
+                          </a> 
+                        </div> 
+                        <div id="nav">  
+                            <ul class="nav-text">
+                              <li><a href="./index.html">Trang Chủ</a></li>
+                              <li><a href="./Introduce.html">Giới Thiệu</a></li>
+                              <li><a href=""> Sản Phẩm  <i class="fa-solid fa-caret-down"></i></a>
+                                  <ul class="subnav">                   
+                                      <li><a href="./Men.html">Đồ Nam </a></li>
+                                      <li><a href="./Woman.html" >Đồ Nữ</a></li>
+                                      <li><a href="./Accessory.html">Phụ Kiện</a></li>               
+                                  </ul> 
+                              </li>    
+                              <li> <a href="./Contact.html">Liên Hệ</a> </li>
+                              <li><a href="">Tuyển Dụng</a></li>
+                            </ul>   
+                        </div> 
+                        <div class="orther">
+                          <input type="text" placeholder="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i>  
+                          <a style="margin-left: 40px;" href="./Login.html" class="fa fa-user" id="login-btn"></a>
+                          <label for="nav_shopping-input" ><i class="fa fa-shopping-bag"></i></label>
+                        </div>
+    <!-- header-nav_mb -->
+                        <label for="nav_mb-input" class="nav_bars">
+                          <i class="fa fa-solid fa-bars"></i>
+                          <span class="orther_mb">
+                            <input class="iptext" type="text" placeholder="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i>
+                            <a href="./Login.html" class="fa fa-user" id="login-btn"></a>       
+                            <label for="nav_shopping-input" ><i class="fa fa-shopping-bag"></i></label>
+                          </span>
+                        </label>  
+    <!--header_mobile-->
+                        <input type="checkbox" hidden class="nav_input" id="nav_mb-input">
+                        <label for="nav_mb-input" class="nav__overlay"></label>
+                        <div class="nav_mb"> 
+                          <label for="nav_mb-input" class="nav_mb-close"><i class="fa-solid fa-xmark"></i></label>
+                          <ul class="nav_mb-list">  
+                            <li><a class="nav_mb-link" href="./index.html">Trang Chủ</a></li>
+                            <li><a  class="nav_mb-link" href="./Introduce.html">Giới Thiệu</a></li>
+                            <li >
+                                <a  class="nav_mb-link icon-menu" href="">Sản Phẩm</a>
+                                <i class="icon-menu fas fa-chevron-down"></i>
+                                <ul class="sub-menu">
+                                    <li><a href="">Đồ Nam</a></li>
+                                    <li><a href="">Đồ Nữ</a></li>
+                                    <li><a href="">Phụ kiện</a></li>
+                                </ul>
+                            </li>
+                            <li> <a class="nav_mb-link" href="./Contact.html">Liên Hệ</a> </li>
+                            <li><a class="nav_mb-link" href="">Tuyển Dụng</a></li>    
+                          </ul>                
+                        </div>
+
+                  <!--shopping Bag-->
+                        <input type="checkbox" hidden class="nav_input-shopping" id="nav_shopping-input">
+                      
+                        <label for="nav_shopping-input" class="nav__overlay-shopping"></label>
+
+                        <div class="nav_shopping"> 
+                               <div class="nav-shopping-top">
+                                <label for="nav_shopping-input" class="nav_shopping-close">
+                                  <i class="fa-solid fa-xmark"></i>
+                                </label>
+                                <ul class="nav_shopping-list"> 
+                                  <li><h3>Giỏ Hàng <span class="number-cart">2</span></h3></li>
+                                </ul>
+                               </div>
+
+                                <div class="main-action">
+                                    <div class="item-product-cart d-flex">
+                                          <div class="thumb-product-cart">
+                                            <img src="./img/khăn Nữ/GUCCI GG LAME BUCKET HAT-2.jpg">
+                                          </div>
+                                          <div class="info-product-cart">
+                                              <h4>GUCCI GG LAME BUCKET HAT</h4>
+                                              
+                                              <div class="info-price-mini">
+                                                  <div class="info-price-quantity" >                                                
+                                                    <input type="number" value="1" data-product-sub-id="173943" data-product-index="0">                                               
+                                                  </div>
+                                                  <div class="price-cart-mini">
+                                                    <span>8.000.000₫ </span>
+                                                  </div>
+                                              </div>
+                                            
+                                          </div>
+                                          <div class="bootom-action">
+                                            <div class="box-action">
+                                              <a href="./Cart.html" class="action-view-cart">Xem Giỏ Hàng</a>
+                                              <a href="./Cart.html" class="action-view-cart">Tiếp Tục Mua Hàng</a>
+                                           </div>
+                                           </div>
+                                    </div>
+                                </div>             
+                        </div>
+                </div>  
+          </div>  
+ <!--slider-->
+          <div class="slideshow-container">
+
+                      <div class="mySlides fade">
+                        <img src="./img/lv02.png" style="width:100% ">
+                      </div>
+                      
+                      <div class="mySlides fade">
+                        <img src="./img/lv03.png" style="width:100%">
+                      </div>
+                      
+                      <div class="mySlides fade">
+                        <img src="./img/lv01.png" style="width:100%">
+                      </div>
+                      
+                      <a class="prev" onclick="plusSlides(-1)">❮</a>
+                      <a class="next" onclick="plusSlides(1)">❯</a>
+                      
+          </div>        
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>              
+<!--Content-vd-->
+          <div class="vd">
+              <div class="vd_row">
+                  <div class="vd_row-text">
+                    <h3 class="heading">MONTHLY BEST CHOICE</h3>
+                    <div class="wpb_wrapper">
+                      <h2 class="heading2" style="font-weight: 400;">HUBLOT WATCH</h2>
+                      <p>Một trong những brand thế mạnh được phân phối bởi <b style="color: rgba(183,126,49,1); ;">TRUNG NGUYEN</b>, chúng tôi liên tục cập nhật đa dạng mẫu mới phục vụ Quý khách.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="vd_row-video">
+                    <iframe title="Đồng hồ HUBLOT BIG BANG ONE CLICK SANG BLEU - tuyệt phẩm trong từng chi tiết" width="500px" height="281" src="https://www.youtube.com/embed/X0WDCqQ_wGU?list=PL2ofQrcWR2RucnyjwVTjED_-Ms6paqPaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                  </div>
+                  <div class="vd_row-video-mb">
+                    <iframe title="Đồng hồ HUBLOT BIG BANG ONE CLICK SANG BLEU - tuyệt phẩm trong từng chi tiết" src="https://www.youtube.com/embed/X0WDCqQ_wGU?list=PL2ofQrcWR2RucnyjwVTjED_-Ms6paqPaI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                  </div>
+              </div>
+          </div>         
+<!--New-->
+          <div id="wrapper">
+                  <h2 class="headline"><i class="fa-solid fa-align-justify"></i>Sản Phẩm Mới</h2>
+                  <div class="products">                      
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/sản phẩm mới/spm1.jpg" alt="">
+                                    <img src="./img/sản phẩm mới/spm1-01.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">BBR LONDON ENGLAND SHORT </a>
+                                <div class="product-card-price">
+                                  <div class="product-price">8.000.000 <sup>đ</sup>
+                                      <del style="color: darkgrey; margin-left: 10px;">10.000.000 <sup>đ</sup></del>
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp02-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp02-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC WEB AND FELINE HEAD COTTON POLO SHIRT </a>
+                              <div class="product-card-price">
+                                <div class="product-price">9.000.000 <sup>đ</sup>
+                                    <del style="color: darkgrey; margin-left: 10px;">11.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp03-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp03-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC COTTON PIQUET POLO WITH INTERLOCKING G </a>
+                              <div class="product-card-price" >
+                                <div class="product-price">14.000.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp04-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp04-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">PA.LM ANGELS SHARK T-SHIRT </a>
+                              <div class="product-card-price">
+                                <div class="product-price">6.000.000 <sup>đ</sup>
+                                    <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/sản phẩm mới/sp05-01.jpg" alt="">
+                                    <img src="./img/sản phẩm mới/sp05-02.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">OFF-WHITE CARAVAGGIO CROWNING PRINT </a>
+                                <div class="product-card-price">
+                                  <div class="product-price">6.500.000 <sup>đ</sup>
+                                    <del style="color: darkgrey; margin-left: 10px;">8.000.000 <sup>đ</sup></del>
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp06-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp06-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC BLADE LOGO-PRINT COTTON T-SHIRT </a>
+                              <div class="product-card-price">
+                                <div class="product-price">11.900.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">12.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp07-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp07-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">INUN GRAPHIC PRINTED CREWNECK T-SHIRT </a>
+                              <div class="product-card-price">
+                                <div class="product-price">5.500.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp08-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp08-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">NEIL BARRETT SCRIBBLE FAIR ISLE THUNDERBOLT PRINT T-SHIRT</a>
+                              <div class="product-card-price">
+                                <div class="product-price">5.500.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>     
+                 </div>
+          </div>
+<!-- SP Nổi Bật -->
+          <div id="wrapper">
+                <h2 class="headline"><i class="fa-solid fa-align-justify"></i>Sản Phẩm Mới</h2>
+                <div class="products">
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/San Pham Noi Bat/24KK5543-1200x1200.jpg" alt="">
+                                    <img src="./img/San Pham Noi Bat/sp01-02.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">VER.SACE POP MEDUSA CROSSBODY BAG</a>
+                                <div class="product-card-price">
+                                  <div class="product-price">11.000.000 <sup>đ</sup>
+                                    <!-- <del style="color: darkgrey; margin-left: 10px;">10.000.000 <sup>đ</sup></del> -->
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/GC BESTIARY BELT BAG WITH TIGERS.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp02-2.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC BESTIARY BELT BAG WITH TIGERS</a>
+                              <div class="product-card-price">
+                                <div class="product-price">20.000.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">21.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/GC DIONYSUS BLACK LEATHER MINI CHAIN BAG.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp07-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC DIONYSUS BLACK LEATHER MINI CHAIN BAG</a>
+                              <div class="product-card-price" >
+                                <div class="product-price">14.000.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/GC GG SUPREME FAKE NOT MEDIUM BACKPACK IN BEIGE.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp04-2.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC GG SUPREME FAKE NOT MEDIUM BACKPACK IN BEIGE </a>
+                              <div class="product-card-price">
+                                <div class="product-price">30.000.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">33.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/GC GG SUPREME BLACK SMALL MESSENGER BAG.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp03-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GC GG SUPREME BLACK SMALL MESSENGER BAG</a>
+                              <div class="product-card-price">
+                                <div class="product-price">14.500.000 <sup>đ</sup>
+                                  <!-- <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del> -->
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/GUCCI BASEBALL HAT WITH HEADBAND.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp05-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GUCCI BASEBALL HAT WITH HEADBAND</a>
+                              <div class="product-card-price">
+                                <div class="product-price">5.900.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/HERMES SCARF SILK TWILLY.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp06-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">HERMES SCARF SILK TWILLY</a>
+                              <div class="product-card-price">
+                                <div class="product-price">4.500.000 <sup>đ</sup>
+                                  <!-- <del style="color: darkgrey; margin-left: 10px;">6.000.000 <sup>đ</sup></del> -->
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/San Pham Noi Bat/GUCCI GG MARMONT SMALL MATELASSÉ SHOULDER BAG.jpg" alt="">
+                                  <img src="./img/San Pham Noi Bat/sp08-2.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">GUCCI GG MARMONT SMALL MATELASSÉ SHOULDER BAG</a>
+                              <div class="product-card-price">
+                                <div class="product-price">22.500.000 <sup>đ</sup>
+                                  <!-- <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del> -->
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+              </div>
+          </div>
+<!--footer-->
+          <section id="sectionHomeStore" class="clearfix">
+            <div class="padding-rl-40">
+              <div class="innerHomeStore">
+                <div class="contentHomeStore">
+                  <div class="textStore">
+                    <a href="./Contact.html" >Hệ thống cửa hàng</a>
+                    </div>
+                    <div class="imgStore">
+                      <img  class="lazyautosizes lazyloaded" data-sizes="auto" src="./img/banner footer.jpg"  alt="bn_foot" >
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+          <div id="footer">
+                <div class="wpb_wrapper">
+                    <div class="wpb_text_column ">
+                      <p><a href="./index.html"><img class="size-full wp-image-16213 aligncenter" src="./img/logo3-removebg-preview.png" alt="" width="180" height="24"></a></p>  
+                    </div>
+                    <div class="wpb_text_column ">
+                      <p style="text-align: center; font-size: 14px;">© 2019 – TRUNG NGUYEN. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="wpb-column-container">
+                    <div class="wpb-column-container-dk">
+                          <div class="wpb_wrapper">
+                            <h6 style="text-align: left" class="vc_custom_heading heading-font-2">ĐĂNG KÝ NHẬN TIN</h6>
+                          </div>
+                          <div class="wpb_wrapper">
+                            <p>Đăng ký để nhận thông tin </p>
+                          </div>
+                          <input  class="email" type="text" placeholder=" &nbsp;Email..."> 
+                          <p><input class="gui" type="submit" value="Gửi" class="wpcf7-form-control wpcf7-submit"></p>
+                    </div>
+                    <div class="wpb-column-container-vct">
+                        <div class="wpb_wrapper">
+                          <h6 style="text-align: left" class="vc_custom_heading heading-font-1">VỀ CHÚNG TÔI</h6>
+                        </div>
+                        <div class="wpb_wrapper">
+                          <ul >
+                            <li class="social" ><a href="">Giới thiệu</a></li>
+                            <li class="social"><a href="">Liên Hệ</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="wpb-column-container-ht">
+                        <div class="wpb_wrapper">
+                          <h6 style="text-align: left " class="vc_custom_heading heading-font-3">Hỗ trợ khách hàng</h6>
+                        </div>
+                        <div class="wpb_wrapper">
+                          <ul>
+                            <li>Hướng dẫn đặt hàng </li>
+                            <li>Hướng dẫn chọn size</li>
+                            <li>Hướng dẫn bảo quản</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>VIP CLUB</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="wpb_wrapper" style="margin:20px 40px 0px 40px;">
+                        <div class="wpb_single_image wpb_content_element vc_align_left">
+                        <figure class="wpb_wrapper vc_figure">
+                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="281" height="98" src="https://24cara.vn/wp-content/uploads/2019/12/payment-method.png" class="vc_single_image-img attachment-full" alt="payment-method" loading="lazy"></div>
+                        </figure>
+                        </div>
+                    </div>
+                </div>   
+          </div>
+</div>
+
+    
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="./JS/index.js"></script>
+<script src="./JS/dropdow.js"></script>
+</html>

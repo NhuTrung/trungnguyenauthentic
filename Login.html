@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Css/login.css">
+    <script src="https://kit.fontawesome.com/2f8b021380.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="page">
+        <!-- header -->
+      <div id="header">
+        <div class="header">
+          <div class="header-top">
+            <a href=""> <img class="header-logo" src="./img/logo3-removebg-preview.png" alt="T R U N N N G U Y E N " height="60" 
+              style="display: block;
+              margin: auto;
+              padding-top: 20px;
+              width: 300px;
+              max-width: 100%;
+              height: auto;"></a> 
+          </div> 
+          <ul id="nav">     
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href=""> Sản Phẩm  <i class="fa-solid fa-caret-down"></i></a>
+              
+                <ul class="subnav">                   
+                    <li><a href="./Men.html">Đồ Nam</a></li>
+                    <li><a href="./Woman.html" >Đồ Nữ</a></li>
+                    <li><a href="./Accessory.html">Phụ Kiện</a></li>               
+                </ul> 
+            </li>    
+            <li> <a href="">Liên Hệ</a> </li>
+            <li><a href="">Tuyển Dụng</a></li>
+            <label for="nav_shopping-input" ><i  class="fa fa-shopping-bag"></i></label>
+           
+                <input class="search" type="text" placeholder="Tìm Kiếm" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+        
+          
+          </ul>  
+          <!--nav MB-->
+          <label for="nav_mb-input" class="nav_bars">
+            <i class="fa fa-solid fa-bars"></i>
+            <span class="orther_mb">
+              <input class="search" type="text" placeholder="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i>
+              <a href="./Login.html" class="fa fa-user" id="login-btn"></a>       
+              <label for="nav_shopping-input" ><i class="fa fa-shopping-bag"></i></label>
+            </span>
+          </label> 
+                
+          <!--Mobile-->
+          <input type="checkbox" hidden class="nav_input" id="nav_mb-input">
+          <label for="nav_mb-input" class="nav__overlay"></label>
+          <div class="nav_mb"> 
+            <label for="nav_mb-input" class="nav_mb-close"><i class="fa-solid fa-xmark"></i></label>
+            <ul class="nav_mb-list">  
+              <li><a class="nav_mb-link" href="./index.html">Trang Chủ</a></li>
+              <li><a  class="nav_mb-link" href="./Introduce.html">Giới Thiệu</a></li>
+              <li >
+                  <a  class="nav_mb-link icon-menu" href="">Sản Phẩm</a>
+                <i class="icon-menu fas fa-chevron-down"></i>
+                <ul class="sub-menu">
+                    <li><a href="">Đồ Nam</a></li>
+                    <li><a href="">Đồ Nữ</a></li>
+                    <li><a href="">Phụ kiện</a></li>
+                </ul>
+            </li>
+              <li> <a class="nav_mb-link" href="./Contact.html">Liên Hệ</a> </li>
+              <li><a class="nav_mb-link" href="">Tuyển Dụng</a></li>    
+            </ul>                
+          </div>
+          <!-- shopping bag -->
+          <input type="checkbox" hidden class="nav_input-shopping" id="nav_shopping-input">
+                        
+          <label for="nav_shopping-input" class="nav__overlay-shopping"></label>
+
+          <div class="nav_shopping"> 
+              <label for="nav_shopping-input" class="nav_shopping-close">
+                <i class="fa-solid fa-xmark"></i>
+              </label>
+              <ul class="nav_shopping-list"> 
+                <li>Chua Lam</li>
+              </ul>                
+          </div>    
+        </div> 
+      </div>
+      <!--end header-->
+              <div id="main" class="wrapper">
+                    <div class="breadcrumb-title-wrapper breadcrumb-v1">
+                        <div class="breadcrumb-content">
+                            <div class="breadcrumb-title">
+                                <h1 class="heading-title page-title entry-title h2 ">My Account</h1>
+                                <div class="breadcrumbs">
+                                    <div class="breadcrumbs-container">
+                                        <a href="./index.html">Home</a>
+                                        <span class="brn_arrow">/</span>
+                                        <span class="current">My Account</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+ <!---->
+            <div id="main_content">
+                <div class="login-sigup">
+                  <div class="login">
+                    <h2>Đăng Nhập</h2>
+                  </div>
+                  <div class="sigup">
+                    <h2 style="padding-left:20px ;">Đăng Ký</h2>
+                  </div>
+                </div>
+              
+                <div class="formLogin">
+                  
+                <p class="woocommer-form-row">
+            
+                  <input type="text" placeholder="Tên Tài Khoản Hoặc Địa Chỉ Email*" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+              </p>
+                          <p class="woocommerce-form-row ">
+                            <input placeholder="Mật Khẩu*" class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password"><span class="show-password-input"> 
+                    </p>
+                    <p class="form-row">
+                        <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Đăng nhập">Đăng nhập</button>
+                        <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+                            <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span class="remember">Ghi nhớ mật khẩu</span>
+                        </label>
+                    </p>
+
+                    <p class="woocommerce-LostPassword lost_password">
+                        <a href="#">Quên mật khẩu?</a>
+                    </p>
+                </div>
+                <div class="formsigup">
+
+                  <p class="woocommer-form-row">
+                    <input type="text" placeholder="Tên Đăng Ký" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+                  </p>
+                  <p class="woocommerce-form-row ">
+                            <input placeholder="Email*" class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password"><span class="show-password-input"> 
+                  </p>
+                  <p class="woocommerce-form-row ">
+                    <input placeholder="Mật Khẩu*" class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password"><span class="show-password-input"> 
+                  </p>
+                  <p class="woocommerce-form-row ">
+                    <input placeholder="Nhập Lại Mật Khẩu*" class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password"><span class="show-password-input"> 
+                  </p>
+
+                  <p class="form-row">
+                      <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Đăng Ký">Đăng Ký</button>
+                      <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+                          <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span class="remember">Ghi nhớ mật khẩu</span>
+                      </label>
+                  </p>
+  
+  
+                  
+                </div>
+               
+               
+
+            </div>
+
+
+        </div>
+                <!--footer-->
+                <div id="footer">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_text_column ">
+                          <p><a href="./index.html"><img class="size-full wp-image-16213 aligncenter" src="./img/logo3-removebg-preview.png" alt="" width="180" height="24"></a></p>  
+                        </div>
+                        <div class="wpb_text_column ">
+                          <p style="text-align: center; font-size: 14px;">© 2019 – TRUNG NGUYEN. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                <div class="wpb-column-container">
+                  <div class="wpb-column-container-dk">
+                        <div class="wpb_wrapper">
+                          <h6 style="text-align: left" class="vc_custom_heading heading-font-2">ĐĂNG KÝ NHẬN TIN</h6>
+                        </div>
+                        <div class="wpb_wrapper">
+                          <p>Đăng ký để nhận thông tin khuyến mãi </p>
+                        </div>
+                        <input class="email" type="text" placeholder="Email"> 
+                        <p><input class="gui" type="submit" value="Gửi" class="wpcf7-form-control wpcf7-submit"></p>
+                  </div>
+                  <div class="wpb-column-container-vct">
+                    <div class="wpb_wrapper">
+                      <h6 style="text-align: left" class="vc_custom_heading heading-font-2">VỀ CHÚNG TÔI</h6>
+                    </div>
+                      <div class="wpb_wrapper">
+                        <ul >
+                          <li class="social" style="margin-bottom:20px ;"><a href="">Giới thiệu</a></li>
+                          <li class="social"><a href="">Liên Hệ</a></li>
+                          
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="wpb-column-container-ht">
+                    <div class="wpb_wrapper">
+                      <h6 style="text-align: left" class="vc_custom_heading heading-font-2">Hệ Thống Cửa Hàng</h6>
+                    </div>
+                      <div class="wpb_wrapper">
+                        <ul >
+                          <li class="social" style="margin-bottom:20px ;"><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/116+%C4%90.+S%C6%B0%C6%A1ng+Nguy%E1%BB%87t+Anh,+Ph%C6%B0%E1%BB%9Dng+Ph%E1%BA%A1m+Ng%C5%A9+L%C3%A3o,+Qu%E1%BA%ADn+1
+                            ,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7714986,106.6872682,17.58z/data=!4m5!3m4!1s0x31752f3cd19ad659:0x66c3693ec9fb3eb3!8m2!3d10.7712751!4d106.6885006?hl=vi-VN" target="_blank">116 Sương Nguyệt Ánh – Quận 1 – HCM</a></li>
+                          <li class="social"><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/24b+P.+L%C3%BD+Th%C3%A1i+T%E1%BB%95,+L%C3%BD+Th%C3%A1i+T%E1%BB%95,+Ho%C3%A0n+Ki%E1%BA%BFm,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0300961,105
+                            .8527199,17z/data=!3m1!4b1!4m5!3m4!1s0x3135abea89a58145:0x5afe03400e5d29bd!8m2!3d21.0300961!4d105.8549086?hl=vi-VN" target="_blank">24B Lý Thái Tổ – Hoàn Kiếm – Hà Nội</a></li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="wpb_wrapper" style="margin-left: 40px;">
+                      <div class="wpb_single_image wpb_content_element vc_align_left">
+                      <figure class="wpb_wrapper vc_figure">
+                      <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="281" height="98" src="https://24cara.vn/wp-content/uploads/2019/12/payment-method.png" class="vc_single_image-img attachment-full" alt="payment-method" loading="lazy"></div>
+                      </figure>
+                      </div>
+                      </div>
+                    
+                    
+                 
+                 
+      
+                 
+                </div>
+                    
+              </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="./JS/dropdow.js"></script>
+<script src="./JS/login.js"></script>
+</html>

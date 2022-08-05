@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/cart.css">
+  <script src="https://kit.fontawesome.com/2f8b021380.js" crossorigin="anonymous"></script>
+
+  <title>Document</title>
+</head>
+<body>
+  <div id="page">
+      <!-- header -->
+      <div id="header">
+        <div class="header">
+          <div class="header-top">
+            <a href=""> <img class="header-logo" src="./img/logo3-removebg-preview.png" alt="T R U N N N G U Y E N " height="60" 
+              style="display: block;
+              margin: auto;
+              padding-top: 20px;
+              width: 300px;
+              max-width: 100%;
+              height: auto;"></a> 
+          </div> 
+          <ul id="nav">     
+            <li><a href="./index.html">Trang Chủ</a></li>
+            <li>
+                <a href=""> Sản Phẩm  <i class="fa-solid fa-caret-down"></i></a>
+              
+                <ul class="subnav">                   
+                    <li><a href="./Men.html">Đồ Nam</a></li>
+                    <li><a href="./Woman.html" >Đồ Nữ</a></li>
+                    <li><a href="./Accessory.html">Phụ Kiện</a></li>               
+                </ul> 
+            </li>    
+            <li> <a href="">Liên Hệ</a> </li>
+            <li><a href="">Tuyển Dụng</a></li>
+            <label for="nav_shopping-input" ><i  class="fa fa-shopping-bag"></i></label>
+           
+                <input class="search" type="text" placeholder="Tìm Kiếm" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+        
+          
+          </ul>  
+          <!--nav MB-->
+          <label for="nav_mb-input" class="nav_bars">
+            <i class="fa fa-solid fa-bars"></i>
+            <span class="orther_mb">
+              <input class="search" type="text" placeholder="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i>
+              <a href="./Login.html" class="fa fa-user" id="login-btn"></a>       
+              <label for="nav_shopping-input" ><i class="fa fa-shopping-bag"></i></label>
+            </span>
+          </label> 
+                
+          <!--Mobile-->
+          <input type="checkbox" hidden class="nav_input" id="nav_mb-input">
+          <label for="nav_mb-input" class="nav__overlay"></label>
+          <div class="nav_mb"> 
+            <label for="nav_mb-input" class="nav_mb-close"><i class="fa-solid fa-xmark"></i></label>
+            <ul class="nav_mb-list">  
+              <li><a class="nav_mb-link" href="./index.html">Trang Chủ</a></li>
+              <li><a  class="nav_mb-link" href="./Introduce.html">Giới Thiệu</a></li>
+              <li >
+                  <a  class="nav_mb-link icon-menu" href="">Sản Phẩm</a>
+                <i class="icon-menu fas fa-chevron-down"></i>
+                <ul class="sub-menu">
+                    <li><a href="">Đồ Nam</a></li>
+                    <li><a href="">Đồ Nữ</a></li>
+                    <li><a href="">Phụ kiện</a></li>
+                </ul>
+            </li>
+              <li> <a class="nav_mb-link" href="./Contact.html">Liên Hệ</a> </li>
+              <li><a class="nav_mb-link" href="">Tuyển Dụng</a></li>    
+            </ul>                
+          </div>
+          <!-- shopping bag -->
+          <input type="checkbox" hidden class="nav_input-shopping" id="nav_shopping-input">
+                        
+          <label for="nav_shopping-input" class="nav__overlay-shopping"></label>
+
+          <div class="nav_shopping"> 
+              <label for="nav_shopping-input" class="nav_shopping-close">
+                <i class="fa-solid fa-xmark"></i>
+              </label>
+              <ul class="nav_shopping-list"> 
+                <li>Chua Lam</li>
+              </ul>                
+          </div>    
+        </div> 
+      </div>
+      <!--end header-->
+      <div id="main" class="wrapper">
+        <div class="breadcrumb-title-wrapper ">
+            <div class="breadcrumb-content">
+                <div class="breadcrumb-title">
+                    <h1 class="heading-title page-title entry-title h2 ">Product</h1>
+                    <div class="breadcrumbs">
+                        <div class="breadcrumbs-container">
+                            <a href="./index.html">Home</a>
+                            <span class="brn_arrow">/</span>
+                            <span class="current">Cart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div> 
+     <!-- container -->
+     <main>
+      <div class="container">
+          <form action="" class="frm_cart">
+              <div class="cart-page">
+                  <div class="row">
+                      <div class="left-row">
+                          <div class="checkout-process-bar">
+                              <ul>
+                                  <li class="active"><span>Giỏ hàng </span></li>
+                                  <li class=""><span>Đặt hàng</span></li>
+                                  <li class=""><span>Thanh toán</span></li>
+                                  <li><span>Hoàn thành đơn</span></li>
+                              </ul>
+                              <p class="checkout-process-bar__title">Giỏ hàng</p>
+                          </div>
+                          <div id="total-cart">
+                              <div class="cart__list">
+                                  <h2 class="cart-title">Giỏ hàng của bạn <b><span class="cart-total">1</span> Sản Phẩm</b></h2>
+                                  <table class="cart-table">
+                                      <thead>
+                                          <tr>
+                                              <th>Tên Sản phẩm</th>
+                                            
+                                              <th>Số lượng</th>
+                                              <th>Tổng tiền</th>
+                                              <th></th>
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>
+                                                  <div class="prod-item">
+                                                      <div class="prod-item__img">
+                                                          <a href="#"><img src="./img/khăn Nữ/GUCCI GG LAME BUCKET HAT-1.jpg" alt=""></a>
+                                                      </div>
+                                                      <div class="prod-item__content">
+                                                          <a href="/html/product.html">
+                                                              <h3 class="prod-item__title">GUCCI GG LAME BUCKET HAT</h3>
+                                                          </a>
+                                                          
+                                                          <div class="prod-item__properties">
+                                                            <p>Màu sắc: <span>Xanh Nhạt </span></p>
+                                                            <p>Size: <span>L</span></p>
+                                                        </div>
+                                                      </div>
+                                                  </div>
+                                              </td>
+                                             
+                                              <td>
+                                                  <div class="prod-quantity">
+                                                      <input type="number" value="1" min="0">
+                                                  </div>
+                                              </td>
+                                              <td><div class="prod-item__price">8.000.000đ</div></td>
+
+                                              <td><a href="#" class="remove-item-cart" data-product-index="0"><i  class="fa-solid fa-trash-can"></i></a></td>
+                                          </tr>
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                          <a class="btn-cart-continue" href="index.html">Tiếp tục mua hàng</a>
+                      </div>
+                      <div class="right-row">
+                          <div class="cart-summary">
+                              <div class="cart-summary__overview">
+                                  <h3>Tổng tiền giỏ hàng</h3>
+                                  <div class="overview__item">
+                                      <p>Tổng sản phẩm</p>
+                                      <p class="total-product">1</p>
+                                  </div>
+                                  <div class="overview__item">
+                                      <p>Tổng tiền hàng</p>
+                                      <p class="total-not-discount">8.000.000đ</p>
+                                  </div>
+                                  <div class="overview__item">
+                                      <p>Thành tiền</p>
+                                      <p><b class="order-price-total">8.000.000đ</b></p>
+                                  </div>
+                                  <div class="overview__item">
+                                      <p>Tạm tính</p>
+                                      <p><b class="order-price-total">8.000.000đ</b></p>
+                                  </div>
+                              </div>
+                              <div class="cart-summary__note">
+                                  <p class="text-success">Đơn hàng của bạn được Miễn phí ship</p>
+                              </div>
+                          </div>
+                          <div class="cart-summary__button">
+                              <a class="btn--large" href="#">Đặt hàng</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </form>
+      </div>
+  </main>
+  </div>
+  
+</body>
+</html>

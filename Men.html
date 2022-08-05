@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="./Css/man.css">
+    <script src="https://kit.fontawesome.com/2f8b021380.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="page">
+  <!-- header -->
+      <div id="header">
+          <div class="header">
+            <div class="header-top">
+              <a href=""> <img class="header-logo" src="./img/logo3-removebg-preview.png" alt="T R U N N N G U Y E N " height="60" 
+                style="display: block;
+                margin: auto;
+                padding-top: 20px;
+                width: 300px;
+                max-width: 100%;
+                height: auto;"></a> 
+            </div> 
+            <ul id="nav">     
+              <li><a href="./index.html">Trang Chủ</a></li>
+              <li>
+                  <a href=""> Sản Phẩm  <i class="fa-solid fa-caret-down"></i></a>
+                
+                  <ul class="subnav">                   
+                      <li><a href="./Men.html">Đồ Nam</a></li>
+                      <li><a href="./Woman.html" >Đồ Nữ</a></li>
+                      <li><a href="./Accessory.html">Phụ Kiện</a></li>               
+                  </ul> 
+              </li>    
+              <li> <a href="">Liên Hệ</a> </li>
+              <li><a href="">Tuyển Dụng</a></li>
+              <label for="nav_shopping-input" ><i  class="fa fa-shopping-bag"></i></label>
+             
+                  <input class="search" type="text" placeholder="Tìm Kiếm" >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+          
+            
+            </ul>  
+            <!--nav MB-->
+            <label for="nav_mb-input" class="nav_bars">
+              <i class="fa fa-solid fa-bars"></i>
+              <span class="orther_mb">
+                <input class="search" type="text" placeholder="Tìm Kiếm"><i class="fa-solid fa-magnifying-glass"></i>
+                <a href="./Login.html" class="fa fa-user" id="login-btn"></a>       
+                <label for="nav_shopping-input" ><i class="fa fa-shopping-bag"></i></label>
+              </span>
+            </label> 
+                  
+            <!--Mobile-->
+            <input type="checkbox" hidden class="nav_input" id="nav_mb-input">
+            <label for="nav_mb-input" class="nav__overlay"></label>
+            <div class="nav_mb"> 
+              <label for="nav_mb-input" class="nav_mb-close"><i class="fa-solid fa-xmark"></i></label>
+              <ul class="nav_mb-list">  
+                <li><a class="nav_mb-link" href="./index.html">Trang Chủ</a></li>
+                <li><a  class="nav_mb-link" href="./Introduce.html">Giới Thiệu</a></li>
+                <li >
+                    <a  class="nav_mb-link icon-menu" href="">Sản Phẩm</a>
+                  <i class="icon-menu fas fa-chevron-down"></i>
+                  <ul class="sub-menu">
+                      <li><a href="./Men.html">Đồ Nam</a></li>
+                      <li><a href="./Woman.html">Đồ Nữ</a></li>
+                      <li><a href="./Accessory.html">Phụ kiện</a></li>
+                  </ul>
+              </li>
+                <li> <a class="nav_mb-link" href="./Contact.html">Liên Hệ</a> </li>
+                <li><a class="nav_mb-link" href="">Tuyển Dụng</a></li>    
+              </ul>                
+            </div>
+            <!-- shopping bag -->
+            <input type="checkbox" hidden class="nav_input-shopping" id="nav_shopping-input">
+                          
+            <label for="nav_shopping-input" class="nav__overlay-shopping"></label>
+
+            <div class="nav_shopping"> 
+                <label for="nav_shopping-input" class="nav_shopping-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </label>
+                <ul class="nav_shopping-list"> 
+                  <li>Chua Lam</li>
+                </ul>                
+            </div>    
+          </div> 
+      </div>
+      <!--  -->
+      <div id="main" class="wrapper">
+        <div class="breadcrumb-title-wrapper ">
+            <div class="breadcrumb-content">
+                <div class="breadcrumb-title">
+                    <h1 class="heading-title page-title entry-title h2 ">Product</h1>
+                    <div class="breadcrumbs">
+                        <div class="breadcrumbs-container">
+                            <a href="./index.html">Home</a>
+                            <span class="brn_arrow">/</span>
+                            <span class="current">Man</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div> 
+       <!--sản Phẩm-->
+       <section class="cartegory">
+        <div class="container">
+         <div class="heading-top-mb">
+          <ul class="nav_mb-list">
+            <li >
+              <a  class="nav_mb-link icon-menu" href="./Men.html">Đồ Nam</a>
+            <i class="icon-menu fas fa-chevron-down"></i>
+            
+
+            <ul class="sub-menu">
+                   <li><div style="cursor: pointer;" > <p> Áo Nam</p></div></li> 
+                  <li><div style="cursor: pointer;" ><p>Quần Nam</p></div></li>
+                  <li><div style="cursor: pointer;"><p>Giày Nam</p></div></li>
+            </ul>
+        </li>
+          </ul>
+          
+         </div>
+
+          <div class="row">
+          
+                <div class="cartegory-left" >
+                        <div class="Men-clothes">
+                          
+                            <h3>Đồ Nam</h3>
+                        </div>
+                        <div class="Men-shirt">
+                          
+                            <p>Áo Nam</p>
+                          
+                        </div>
+                        <div class="Male-pants">
+                          
+                            <p>Quần Nam</p>
+                          
+                        </div>
+                        <div class="giaynam  ">
+                          
+                            <p>Giày Nam</p>
+                          
+                        </div>
+                </div>
+            <!--  -->
+                <div class="cartegory-right ">
+              <!-- Đồ Nam -->
+                  <div class="cartegory-right-Men-clothes Men ">
+                        <div class="row cartegory-right-top"> 
+                          <div class="cartegory-right-top-item cartegory-right-top-heading">
+                            <p>Đồ Nam Nổi Bật</p>
+                          </div>
+                      
+                        <div class="cartegory-right-top-item"> 
+                        <select name="" id="" style="border-radius: 10px;">
+                          
+                          <option value=""> Sắp Xếp</option>
+                          <option value=""> Giá Cao Đến Thấp</option>
+                          <option value=""> Giá Thấp Đến Cao</option>
+                        </select>
+                        </div>
+                        </div>
+                        <div class="products">
+                      
+                          <div class="product-item">
+                              <div class="product-top">
+                                  <a href="./chitie.html" class="product-thumb">
+                                      <img  src="./img/sản phẩm mới/spm1.jpg" alt="">
+                                      <img src="./img/sản phẩm mới/spm1-01.jpg" alt="" class="img-change">
+                                  </a>
+                              </div>
+                              <div class="product-info">
+                                  <a href="./chitie.html" class="product-name">BBR LONDON ENGLAND SHORT </a>
+                                  <div class="product-card-price">
+                                    <div class="product-price">8.000.000 <sup>đ</sup>
+                                       <del style="color: darkgrey; margin-left: 10px;">10.000.000 <sup>đ</sup></del>
+                                    </div>
+                                    <div class="add-to-card">
+                                      <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                    </div>  
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/sản phẩm mới/sp02-01.jpg" alt="">
+                                    <img src="./img/sản phẩm mới/sp02-02.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">GC WEB AND FELINE HEAD COTTON POLO SHIRT </a>
+                                <div class="product-card-price">
+                                  <div class="product-price">9.000.000 <sup>đ</sup>
+                                     <del style="color: darkgrey; margin-left: 10px;">11.000.000 <sup>đ</sup></del>
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                          </div>
+                          <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/sản phẩm mới/sp03-01.jpg" alt="">
+                                    <img src="./img/sản phẩm mới/sp03-02.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">GC COTTON PIQUET POLO WITH INTERLOCKING G </a>
+                                <div class="product-card-price" >
+                                  <div class="product-price">14.000.000 <sup>đ</sup>
+                                    <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del>
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                          </div>
+                          <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/sản phẩm mới/sp04-01.jpg" alt="">
+                                    <img src="./img/sản phẩm mới/sp04-02.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">PA.LM ANGELS SHARK T-SHIRT </a>
+                                <div class="product-card-price">
+                                  <div class="product-price">6.000.000 <sup>đ</sup>
+                                     <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/sản phẩm mới/sp05-01.jpg" alt="">
+                                  <img src="./img/sản phẩm mới/sp05-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">OFF-WHITE CARAVAGGIO CROWNING PRINT </a>
+                              <div class="product-card-price">
+                                <div class="product-price">6.500.000 <sup>đ</sup>
+                                   <del style="color: darkgrey; margin-left: 10px;">8.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="product-item">
+                        <div class="product-top">
+                            <a href="./chitie.html" class="product-thumb">
+                                <img  src="./img/sản phẩm mới/sp06-01.jpg" alt="">
+                                <img src="./img/sản phẩm mới/sp06-02.jpg" alt="" class="img-change">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="./chitie.html" class="product-name">GC BLADE LOGO-PRINT COTTON T-SHIRT </a>
+                            <div class="product-card-price">
+                              <div class="product-price">11.900.000 <sup>đ</sup>
+                                 <del style="color: darkgrey; margin-left: 10px;">12.000.000 <sup>đ</sup></del>
+                              </div>
+                              <div class="add-to-card">
+                                <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                      <div class="product-top">
+                          <a href="./chitie.html" class="product-thumb">
+                              <img  src="./img/sản phẩm mới/sp07-01.jpg" alt="">
+                              <img src="./img/sản phẩm mới/sp07-02.jpg" alt="" class="img-change">
+                          </a>
+                      </div>
+                      <div class="product-info">
+                          <a href="./chitie.html" class="product-name">INUN GRAPHIC PRINTED CREWNECK T-SHIRT </a>
+                          <div class="product-card-price">
+                            <div class="product-price">5.500.000 <sup>đ</sup>
+                               <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                            </div>
+                            <div class="add-to-card">
+                              <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                            </div>  
+                          </div>
+                      </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-top">
+                        <a href="./chitie.html" class="product-thumb">
+                            <img  src="./img/sản phẩm mới/sp08-01.jpg" alt="">
+                            <img src="./img/sản phẩm mới/sp08-02.jpg" alt="" class="img-change">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="./chitie.html" class="product-name">NEIL BARRETT SCRIBBLE FAIR ISLE THUNDERBOLT PRINT T-SHIRT</a>
+                        <div class="product-card-price">
+                          <div class="product-price">5.500.000 <sup>đ</sup>
+                             <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                          </div>
+                          <div class="add-to-card">
+                            <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                          </div>  
+                        </div>
+                    </div>
+                </div>
+                        </div>
+          
+                  </div>
+                
+              <!--Áo Nam-->
+            
+                    <div class="cartegory-right-Men-shirt Men ">
+
+                      <div class="row cartegory-right-top"> 
+                        <div class="cartegory-right-top-item cartegory-right-top-heading">
+                          <p>Áo Nam</p>
+                        </div>
+                    
+                      <div class="cartegory-right-top-item">
+                      <select name="" id="">
+                        <option value=""> Sắp Xếp</option>
+                        <option value=""> Giá Cao Đến Thấp</option>
+                        <option value=""> Giá Thấp Đến Cao</option>
+                      </select>
+                      </div>
+                      </div>
+                      <div class="products">
+            
+                        <div class="product-item">
+                            <div class="product-top">
+                                <a href="./chitie.html" class="product-thumb">
+                                    <img  src="./img/áo Nam/DIOR x KENNY SCHARF SHIRT BLUE-01.jpg" alt="">
+                                    <img src="./img/áo Nam/sp01-02.jpg" alt="" class="img-change">
+                                </a>
+                            </div>
+                            <div class="product-info">
+                                <a href="./chitie.html" class="product-name">DIOR x KENNY SCHARF SHIRT BLUE</a>
+                                <div class="product-card-price">
+                                  <div class="product-price">11.000.000 <sup>đ</sup>
+                                    <!-- <del style="color: darkgrey; margin-left: 10px;">10.000.000 <sup>đ</sup></del> -->
+                                  </div>
+                                  <div class="add-to-card">
+                                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                  </div>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/áo Nam/PALM ANGELS DOUBLED LOGO T-SHIRT 02.jpg" alt="">
+                                  <img src="./img/áo Nam/sp02-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">PALM ANGELS DOUBLED LOGO T-SHIRT</a>
+                              <div class="product-card-price">
+                                <div class="product-price">6.000.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">8.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/áo Nam/PALM ANGELS BEAR OVER TEE WHITE BROWN-03.jpg" alt="">
+                                  <img src="./img/áo Nam/sp03-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">PALM ANGELS BEAR OVER TEE WHITE BROWN</a>
+                              <div class="product-card-price" >
+                                <div class="product-price">8.000.000 <sup>đ</sup>
+                                  <!-- <del style="color: darkgrey; margin-left: 10px;">9.000.000 <sup>đ</sup></del> -->
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="product-item">
+                          <div class="product-top">
+                              <a href="./chitie.html" class="product-thumb">
+                                  <img  src="./img/áo Nam/ANDREA MARTIN PINK MULTI-LAYERED MESH SHIRT-04.jpg" alt="">
+                                  <img src="./img/áo Nam/sp04-02.jpg" alt="" class="img-change">
+                              </a>
+                          </div>
+                          <div class="product-info">
+                              <a href="./chitie.html" class="product-name">ANDREA MARTIN PINK MULTI-LAYERED MESH SHIRT </a>
+                              <div class="product-card-price">
+                                <div class="product-price">12.000.000 <sup>đ</sup>
+                                  <del style="color: darkgrey; margin-left: 10px;">14.000.000 <sup>đ</sup></del>
+                                </div>
+                                <div class="add-to-card">
+                                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                                </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="product-item">
+                        <div class="product-top">
+                            <a href="./chitie.html" class="product-thumb">
+                                <img  src="./img/áo Nam/LOUIS VUITTON 3D EQUIPE OVERSIZED SHIRT-05.jpg" alt="">
+                                <img src="./img/áo Nam/sp05-02.jpg" alt="" class="img-change">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="./chitie.html" class="product-name">LOUIS VUITTON 3D EQUIPE OVERSIZED SHIRT</a>
+                            <div class="product-card-price">
+                              <div class="product-price">14.500.000 <sup>đ</sup>
+                                <!-- <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del> -->
+                              </div>
+                              <div class="add-to-card">
+                                <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                      <div class="product-top">
+                          <a href="./chitie.html" class="product-thumb">
+                              <img  src="./img/áo Nam/PALM ANGELS CROCO TEE WHITE GREEN-06.jpg" alt="">
+                              <img src="./img/áo Nam/sp06-02.jpg" alt="" class="img-change">
+                          </a>
+                      </div>
+                      <div class="product-info">
+                          <a href="./chitie.html" class="product-name">PALM ANGELS CROCO TEE WHITE GREEN-06.jpg</a>
+                          <div class="product-card-price">
+                            <div class="product-price">10.900.000 <sup>đ</sup>
+                              <!-- <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del> -->
+                            </div>
+                            <div class="add-to-card">
+                              <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                            </div>  
+                          </div>
+                      </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-top">
+                        <a href="./chitie.html" class="product-thumb">
+                            <img  src="./img/áo Nam/LOUIS VUITTON MONOGRAM DENIM SHIRT-07.jpg" alt="">
+                            <img src="./img/áo Nam/sp7-02.jpg" alt="" class="img-change">
+
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="./chitie.html" class="product-name">LOUIS VUITTON MONOGRAM DENIM SHIRT</a>
+                        <div class="product-card-price">
+                          <div class="product-price">4.500.000 <sup>đ</sup>
+                            <!-- <del style="color: darkgrey; margin-left: 10px;">6.000.000 <sup>đ</sup></del> -->
+                          </div>
+                          <div class="add-to-card">
+                            <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                          </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-top">
+                      <a href="./chitie.html" class="product-thumb">
+                          <img  src="./img/áo Nam/DIOR OBLIQUE SHIRT BLUE-08.jpg" alt="">
+                          <img src="./img/áo Nam/sp08-02.jpg" alt="" class="img-change">
+                      </a>
+                  </div>
+                  <div class="product-info">
+                      <a href="./chitie.html" class="product-name">DIOR OBLIQUE SHIRT BLUE</a>
+                      <div class="product-card-price">
+                        <div class="product-price">12.500.000 <sup>đ</sup>
+                          <!-- <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del> -->
+                        </div>
+                        <div class="add-to-card">
+                          <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                        </div>  
+                      </div>
+                  </div>
+              </div>
+              </div>
+        
+                    </div>
+            <!--Quần Nam -->
+            <div class="cartegory-right-Male-pants Men ">
+              <div class="row cartegory-right-top"> 
+                <div class="cartegory-right-top-item cartegory-right-top-heading">
+                  <p>Quần Nam</p>
+                </div>
+            
+              <div class="cartegory-right-top-item"> 
+              <select name="" id="" style="border-radius: 10px;">
+                
+                <option value=""> Sắp Xếp</option>
+                <option value=""> Giá Cao Đến Thấp</option>
+                <option value=""> Giá Thấp Đến Cao</option>
+              </select>
+              </div>
+              </div>
+              <div class="products">
+            
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="./chitie.html" class="product-thumb">
+                            <img  src="./img/sản phẩm mới/spm1.jpg" alt="">
+                            <img src="./img/sản phẩm mới/spm1-01.jpg" alt="" class="img-change">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="./chitie.html" class="product-name">BBR LONDON ENGLAND SHORT </a>
+                        <div class="product-card-price">
+                          <div class="product-price">8.000.000 <sup>đ</sup>
+                             <del style="color: darkgrey; margin-left: 10px;">10.000.000 <sup>đ</sup></del>
+                          </div>
+                          <div class="add-to-card">
+                            <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                          </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-top">
+                      <a href="./chitie.html" class="product-thumb">
+                          <img  src="./img/sản phẩm mới/sp02-01.jpg" alt="">
+                          <img src="./img/sản phẩm mới/sp02-02.jpg" alt="" class="img-change">
+                      </a>
+                  </div>
+                  <div class="product-info">
+                      <a href="./chitie.html" class="product-name">GC WEB AND FELINE HEAD COTTON POLO SHIRT </a>
+                      <div class="product-card-price">
+                        <div class="product-price">9.000.000 <sup>đ</sup>
+                           <del style="color: darkgrey; margin-left: 10px;">11.000.000 <sup>đ</sup></del>
+                        </div>
+                        <div class="add-to-card">
+                          <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                        </div>  
+                      </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-top">
+                      <a href="./chitie.html" class="product-thumb">
+                          <img  src="./img/sản phẩm mới/sp03-01.jpg" alt="">
+                          <img src="./img/sản phẩm mới/sp03-02.jpg" alt="" class="img-change">
+                      </a>
+                  </div>
+                  <div class="product-info">
+                      <a href="./chitie.html" class="product-name">GC COTTON PIQUET POLO WITH INTERLOCKING G </a>
+                      <div class="product-card-price" >
+                        <div class="product-price">14.000.000 <sup>đ</sup>
+                          <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del>
+                        </div>
+                        <div class="add-to-card">
+                          <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                        </div>  
+                      </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-top">
+                      <a href="./chitie.html" class="product-thumb">
+                          <img  src="./img/sản phẩm mới/sp04-01.jpg" alt="">
+                          <img src="./img/sản phẩm mới/sp04-02.jpg" alt="" class="img-change">
+                      </a>
+                  </div>
+                  <div class="product-info">
+                      <a href="./chitie.html" class="product-name">PA.LM ANGELS SHARK T-SHIRT </a>
+                      <div class="product-card-price">
+                        <div class="product-price">6.000.000 <sup>đ</sup>
+                           <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                        </div>
+                        <div class="add-to-card">
+                          <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                        </div>  
+                      </div>
+                  </div>
+              </div>
+              <div class="product-item">
+                <div class="product-top">
+                    <a href="./chitie.html" class="product-thumb">
+                        <img  src="./img/sản phẩm mới/sp05-01.jpg" alt="">
+                        <img src="./img/sản phẩm mới/sp05-02.jpg" alt="" class="img-change">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <a href="./chitie.html" class="product-name">OFF-WHITE CARAVAGGIO CROWNING PRINT </a>
+                    <div class="product-card-price">
+                      <div class="product-price">6.500.000 <sup>đ</sup>
+                         <del style="color: darkgrey; margin-left: 10px;">8.000.000 <sup>đ</sup></del>
+                      </div>
+                      <div class="add-to-card">
+                        <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+              <div class="product-top">
+                  <a href="./chitie.html" class="product-thumb">
+                      <img  src="./img/sản phẩm mới/sp06-01.jpg" alt="">
+                      <img src="./img/sản phẩm mới/sp06-02.jpg" alt="" class="img-change">
+                  </a>
+              </div>
+              <div class="product-info">
+                  <a href="./chitie.html" class="product-name">GC BLADE LOGO-PRINT COTTON T-SHIRT </a>
+                  <div class="product-card-price">
+                    <div class="product-price">11.900.000 <sup>đ</sup>
+                       <del style="color: darkgrey; margin-left: 10px;">12.000.000 <sup>đ</sup></del>
+                    </div>
+                    <div class="add-to-card">
+                      <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                    </div>  
+                  </div>
+              </div>
+          </div>
+          <div class="product-item">
+            <div class="product-top">
+                <a href="./chitie.html" class="product-thumb">
+                    <img  src="./img/sản phẩm mới/sp07-01.jpg" alt="">
+                    <img src="./img/sản phẩm mới/sp07-02.jpg" alt="" class="img-change">
+                </a>
+            </div>
+            <div class="product-info">
+                <a href="./chitie.html" class="product-name">INUN GRAPHIC PRINTED CREWNECK T-SHIRT </a>
+                <div class="product-card-price">
+                  <div class="product-price">5.500.000 <sup>đ</sup>
+                     <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                  </div>
+                  <div class="add-to-card">
+                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                  </div>  
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+          <div class="product-top">
+              <a href="./chitie.html" class="product-thumb">
+                  <img  src="./img/sản phẩm mới/sp08-01.jpg" alt="">
+                  <img src="./img/sản phẩm mới/sp08-02.jpg" alt="" class="img-change">
+              </a>
+          </div>
+          <div class="product-info">
+              <a href="./chitie.html" class="product-name">NEIL BARRETT SCRIBBLE FAIR ISLE THUNDERBOLT PRINT T-SHIRT</a>
+              <div class="product-card-price">
+                <div class="product-price">5.500.000 <sup>đ</sup>
+                   <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del>
+                </div>
+                <div class="add-to-card">
+                  <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                </div>  
+              </div>
+          </div>
+      </div>
+              </div>
+
+        </div>
+
+             <!--Giày Nam  -->
+              <!--Mix N Match  -->
+
+          
+              <div class="cartegory-right-Men-Mix ">
+
+                <div class="row cartegory-right-top"> 
+                  <div class="cartegory-right-top-item cartegory-right-top-heading">
+                    <p>MIX AND MATCH</p>
+                  </div>
+              
+                <!-- <div class="cartegory-right-top-item">
+                <select name="" id="">
+                  <option value=""> Sắp Xếp</option>
+                  <option value=""> Giá Cao Đến Thấp</option>
+                  <option value=""> Giá Thấp Đến Cao</option>
+                </select>
+                </div> -->
+                </div>
+                <div class="products">
+      
+                  <div class="product-item">
+                      <div class="product-top">
+                          <a href="./chitie.html" class="product-thumb">
+                              <img  src="./img/áo Nam/DIOR x KENNY SCHARF SHIRT BLUE-01.jpg" alt="">
+                              <img src="./img/áo Nam/sp01-02.jpg" alt="" class="img-change">
+                          </a>
+                      </div>
+                      <div class="product-info">
+                          <a href="./chitie.html" class="product-name">DIOR x KENNY SCHARF SHIRT BLUE</a>
+                          <div class="product-card-price">
+                            <div class="product-price">11.000.000 <sup>đ</sup>
+                               <!-- <del style="color: darkgrey; margin-left: 10px;">10.000.000 <sup>đ</sup></del> -->
+                            </div>
+                            <div class="add-to-card">
+                              <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                            </div>  
+                          </div>
+                      </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-top">
+                        <a href="./chitie.html" class="product-thumb">
+                            <img  src="./img/áo Nam/PALM ANGELS DOUBLED LOGO T-SHIRT 02.jpg" alt="">
+                            <img src="./img/áo Nam/sp02-02.jpg" alt="" class="img-change">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="./chitie.html" class="product-name">PALM ANGELS DOUBLED LOGO T-SHIRT</a>
+                        <div class="product-card-price">
+                          <div class="product-price">6.000.000 <sup>đ</sup>
+                             <del style="color: darkgrey; margin-left: 10px;">8.000.000 <sup>đ</sup></del>
+                          </div>
+                          <div class="add-to-card">
+                            <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                          </div>  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-top">
+                        <a href="./chitie.html" class="product-thumb">
+                            <img  src="./img/áo Nam/PALM ANGELS BEAR OVER TEE WHITE BROWN-03.jpg" alt="">
+                            <img src="./img/áo Nam/sp03-02.jpg" alt="" class="img-change">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="./chitie.html" class="product-name">PALM ANGELS BEAR OVER TEE WHITE BROWN</a>
+                        <div class="product-card-price" >
+                          <div class="product-price">8.000.000 <sup>đ</sup>
+                            <!-- <del style="color: darkgrey; margin-left: 10px;">9.000.000 <sup>đ</sup></del> -->
+                          </div>
+                          <div class="add-to-card">
+                            <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                          </div>  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="product-item">
+                    <div class="product-top">
+                        <a href="./chitie.html" class="product-thumb">
+                            <img  src="./img/áo Nam/ANDREA MARTIN PINK MULTI-LAYERED MESH SHIRT-04.jpg" alt="">
+                            <img src="./img/áo Nam/sp04-02.jpg" alt="" class="img-change">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a href="./chitie.html" class="product-name">ANDREA MARTIN PINK MULTI-LAYERED MESH SHIRT </a>
+                        <div class="product-card-price">
+                          <div class="product-price">12.000.000 <sup>đ</sup>
+                             <del style="color: darkgrey; margin-left: 10px;">14.000.000 <sup>đ</sup></del>
+                          </div>
+                          <div class="add-to-card">
+                            <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                          </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-top">
+                      <a href="./chitie.html" class="product-thumb">
+                          <img  src="./img/áo Nam/LOUIS VUITTON 3D EQUIPE OVERSIZED SHIRT-05.jpg" alt="">
+                          <img src="./img/áo Nam/sp05-02.jpg" alt="" class="img-change">
+                      </a>
+                  </div>
+                  <div class="product-info">
+                      <a href="./chitie.html" class="product-name">LOUIS VUITTON 3D EQUIPE OVERSIZED SHIRT</a>
+                      <div class="product-card-price">
+                        <div class="product-price">14.500.000 <sup>đ</sup>
+                           <!-- <del style="color: darkgrey; margin-left: 10px;">16.000.000 <sup>đ</sup></del> -->
+                        </div>
+                        <div class="add-to-card">
+                          <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                        </div>  
+                      </div>
+                  </div>
+              </div>
+              <div class="product-item">
+                <div class="product-top">
+                    <a href="./chitie.html" class="product-thumb">
+                        <img  src="./img/áo Nam/PALM ANGELS CROCO TEE WHITE GREEN-06.jpg" alt="">
+                        <img src="./img/áo Nam/sp06-02.jpg" alt="" class="img-change">
+                    </a>
+                </div>
+                <div class="product-info">
+                    <a href="./chitie.html" class="product-name">PALM ANGELS CROCO TEE WHITE GREEN-06.jpg</a>
+                    <div class="product-card-price">
+                      <div class="product-price">10.900.000 <sup>đ</sup>
+                         <!-- <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del> -->
+                      </div>
+                      <div class="add-to-card">
+                        <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+              <div class="product-top">
+                  <a href="./chitie.html" class="product-thumb">
+                      <img  src="./img/áo Nam/LOUIS VUITTON MONOGRAM DENIM SHIRT-07.jpg" alt="">
+                      <img src="./img/áo Nam/sp7-02.jpg" alt="" class="img-change">
+
+                  </a>
+              </div>
+              <div class="product-info">
+                  <a href="./chitie.html" class="product-name">LOUIS VUITTON MONOGRAM DENIM SHIRT</a>
+                  <div class="product-card-price">
+                    <div class="product-price">4.500.000 <sup>đ</sup>
+                       <!-- <del style="color: darkgrey; margin-left: 10px;">6.000.000 <sup>đ</sup></del> -->
+                    </div>
+                    <div class="add-to-card">
+                      <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                    </div>  
+                  </div>
+              </div>
+          </div>
+          <div class="product-item">
+            <div class="product-top">
+                <a href="./chitie.html" class="product-thumb">
+                    <img  src="./img/áo Nam/DIOR OBLIQUE SHIRT BLUE-08.jpg" alt="">
+                    <img src="./img/áo Nam/sp08-02.jpg" alt="" class="img-change">
+                </a>
+            </div>
+            <div class="product-info">
+                <a href="./chitie.html" class="product-name">DIOR OBLIQUE SHIRT BLUE</a>
+                <div class="product-card-price">
+                  <div class="product-price">12.500.000 <sup>đ</sup>
+                     <!-- <del style="color: darkgrey; margin-left: 10px;">7.000.000 <sup>đ</sup></del> -->
+                  </div>
+                  <div class="add-to-card">
+                    <a href=""><i class="fa-solid fa-bag-shopping fa-bag-cart"></i></a>
+                  </div>  
+                </div>
+            </div>
+        </div>
+         </div>
+  
+              </div>
+              <div class="text_end">
+              <a href="#">Xem Thêm</a>
+              </div>
+                </div>
+          </div>
+         
+        </div>
+  
+       </section>
+       
+        
+       <!--Footer--> 
+       <section id="sectionHomeStore" class="clearfix">
+        <div class="padding-rl-40">
+          <div class="innerHomeStore">
+            <div class="contentHomeStore">
+              <div class="textStore">
+                <a href="#" >Hệ thống cửa hàng</a>
+                </div>
+                <div class="imgStore">
+                  <img  class="lazyautosizes lazyloaded" data-sizes="auto" src="./img/banner footer.jpg"  alt="bn_foot" >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+      <div id="footer">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_text_column ">
+                          <p><a href="./index.html"><img class="size-full wp-image-16213 aligncenter" src="./img/logo3-removebg-preview.png" alt="" width="180" height="24"></a></p>  
+                        </div>
+                        <div class="wpb_text_column ">
+                          <p style="text-align: center; font-size: 14px;">© 2019 – TRUNG NGUYEN. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="wpb-column-container">
+                        <div class="wpb-column-container-dk">
+                              <div class="wpb_wrapper">
+                                <h6 style="text-align: left" class="vc_custom_heading heading-font-2">ĐĂNG KÝ NHẬN TIN</h6>
+                              </div>
+                              <div class="wpb_wrapper">
+                                <p>Đăng ký để nhận thông tin </p>
+                              </div>
+                              <input  class="email" type="text" placeholder=" &nbsp;Email..."> 
+                              <p><input class="gui" type="submit" value="Gửi" class="wpcf7-form-control wpcf7-submit"></p>
+                        </div>
+                        <div class="wpb-column-container-vct">
+                          <div class="wpb_wrapper">
+                            <h6 style="text-align: left" class="vc_custom_heading heading-font-1">VỀ CHÚNG TÔI</h6>
+                          </div>
+                            <div class="wpb_wrapper">
+                              <ul >
+                                <li class="social" ><a href="">Giới thiệu</a></li>
+                                <li class="social"><a href="">Liên Hệ</a></li>
+                                
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="wpb-column-container-ht">
+                          <div class="wpb_wrapper">
+                            <h6 style="text-align: left " class="vc_custom_heading heading-font-3">Hỗ trợ khách hàng</h6>
+                          </div>
+                            <div class="wpb_wrapper">
+                            <ul>
+                              <li>Hướng dẫn đặt hàng </li>
+                              <li>Hướng dẫn chọn size</li>
+                              <li>Hướng dẫn bảo quản</li>
+                              <li>Chính sách đổi trả</li>
+                              <li>Chính sách bảo mật</li>
+                              <li>VIP CLUB</li>
+                              
+  
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="wpb_wrapper" style="margin:20px 40px 0px 40px;">
+                          <div class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure class="wpb_wrapper vc_figure">
+                          <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="281" height="98" src="https://24cara.vn/wp-content/uploads/2019/12/payment-method.png" class="vc_single_image-img attachment-full" alt="payment-method" loading="lazy"></div>
+                          </figure>
+                          </div>
+                        </div>
+                    </div>   
+      </div>
+      
+  
+
+</div>
+        
+
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="./JS/men.js"></script>
+<script src="./JS/sub-mb.js"></script>
+
+
+</html>
